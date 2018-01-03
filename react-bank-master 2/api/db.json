@@ -1,0 +1,176 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Laboune",
+      "street_address": "29 Raven Street",
+      "postcode": "33852",
+      "city": "Plumtree",
+      "email": "email@example.com",
+      "password_hash": "$2a$06$ZL8NzPXz2XDILlHF.jIN/u5n0XZoJ2jfgD7lK61wsQuC8Ee8has5G",
+      "created_on": "20/07/2017",
+      "last_login": "23/07/2017 22:38",
+      "messages_no": 5,
+      "cards_no": 2,
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IkpvaG4gTGFib3VuZSIsImVtYWlsIjoiZW1haWxAZXhhbXBsZS5jb20ifQ.zVUEZd48wY1zwPHAuglWIo21ls14U9hvy-Xlbyhvoys"
+    },
+    {
+      "id": 2,
+      "first_name": "Mark",
+      "last_name": "Matley",
+      "street_address": "18 Denman St",
+      "postcode": "W1A 1JT",
+      "city": "Soho, London",
+      "email": "email2@example.com",
+      "password_hash": "$2a$06$nY5U9kd0ps8sbBwiHL23X.6XBe1CdKiT1em3OYpTEN6vej6DZ/kE2",
+      "created_on": "15/07/2017",
+      "last_login": "20/07/2017 17:23",
+      "messages_no": 5,
+      "cards_no": 2,
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwibmFtZSI6Ik1hcmsgTWF0bGV5IiwiZW1haWwiOiJlbWFpbDJAZXhhbXBsZS5jb20ifQ.KdoGm7qoThOBrCsXlAMITXCF-2OuUPIb7CftGMqmaQg"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "type": "Personal account",
+      "sortcode": "56-12-34",
+      "number": "12345678",
+      "currency": "GBP",
+      "balance": 148.95,
+      "income_expenses_7_days": [
+        { "date": "25.08.2017", "income": 2400, "expenses": 4000 },
+        { "date": "26.08.2017", "income": 1398, "expenses": 3000 },
+        { "date": "27.08.2017", "income": 9800, "expenses": 2000 },
+        { "date": "28.08.2017", "income": 3908, "expenses": 2780 },
+        { "date": "29.08.2017", "income": 4800, "expenses": 1890 },
+        { "date": "30.08.2017", "income": 3800, "expenses": 2390 },
+        { "date": "31.08.2017", "income": 4300, "expenses": 3490 }
+      ],
+      "income_expenses_30_days": [
+        { "date": "1.08.2017", "income": 500, "expenses": 2000 },
+        { "date": "6.08.2017", "income": 1000, "expenses": 2500 },
+        { "date": "11.08.2017", "income": 1345, "expenses": 3000 },
+        { "date": "16.08.2017", "income": 3908, "expenses": 2780 },
+        { "date": "21.08.2017", "income": 4800, "expenses": 1890 },
+        { "date": "26.08.2017", "income": 1399, "expenses": 150 },
+        { "date": "31.08.2017", "income": 3800, "expenses": 433 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Business account",
+      "sortcode": "46-43-21",
+      "number": "98765432",
+      "currency": "GBP",
+      "balance": 5401.34,
+      "income_expenses_7_days": [
+        { "date": "25.08.2017", "income": 2400, "expenses": 4000 },
+        { "date": "26.08.2017", "income": 1398, "expenses": 3000 },
+        { "date": "27.08.2017", "income": 9800, "expenses": 2000 },
+        { "date": "28.08.2017", "income": 3908, "expenses": 2780 },
+        { "date": "29.08.2017", "income": 4800, "expenses": 1890 },
+        { "date": "30.08.2017", "income": 3800, "expenses": 2390 },
+        { "date": "31.08.2017", "income": 4300, "expenses": 3490 }
+      ],
+      "income_expenses_30_days": [
+        { "date": "1.08.2017", "income": 500, "expenses": 2000 },
+        { "date": "6.08.2017", "income": 1000, "expenses": 2500 },
+        { "date": "11.08.2017", "income": 1345, "expenses": 3000 },
+        { "date": "16.08.2017", "income": 3908, "expenses": 2780 },
+        { "date": "21.08.2017", "income": 4800, "expenses": 1890 },
+        { "date": "26.08.2017", "income": 1399, "expenses": 150 },
+        { "date": "31.08.2017", "income": 3800, "expenses": 433 }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "type": "debit",
+      "number": "4866-1234-0092-8832",
+      "expires_month": "09",
+      "expires_year": "2018",
+      "security_code": 395,
+      "pin": 1234,
+      "balance": 148.95,
+      "income_7_days": 2400,
+      "expenses_7_days": 297,
+      "daily_withdrawal_limit": 1234,
+      "daily_online_limit": 5678
+    },
+    {
+      "id": 2,
+      "type": "credit",
+      "number": "4866-1209-0092-5678",
+      "expires_month": "12",
+      "expires_year": "2019",
+      "security_code": 823,
+      "pin": 1234,
+      "balance": 5401.34,
+      "income_7_days": 2400,
+      "expenses_7_days": 297,
+      "daily_withdrawal_limit": 1234,
+      "daily_online_limit": 998
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "date": "24/07/2017 22:38",
+      "amount": 103.44,
+      "payee": "John Laboune",
+      "type": "Transfer",
+      "status": "In progress"
+    },
+    {
+      "id": 2,
+      "date": "24/07/2017 23:38",
+      "amount": 120.44,
+      "payee": "John Laboune",
+      "type": "Deposit",
+      "status": "Done"
+    },
+    {
+      "id": 3,
+      "date": "25/07/2017 22:38",
+      "amount": 220.44,
+      "payee": "Mark Matley",
+      "type": "Withdrawal",
+      "status": "Done"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit amet",
+      "content": "<h2>1Lorem ipsum dolor</h2><p>sit amet, consectetur adipiscing elit. Praesent porttitor a turpis in sagittis.</p><p>Pellentesque convallis tortor non augue tempus, nec blandit neque interdum. Cras et erat mattis, iaculis lectus quis, pretium mi.</p>",
+      "date": "25/07/2017 22:38"
+    },
+    {
+      "id": 2,
+      "title": "Title 2",
+      "content": "<h2>2Lorem ipsum dolor</h2><p>sit amet, consectetur adipiscing elit. Praesent porttitor a turpis in sagittis.</p><p>Pellentesque convallis tortor non augue tempus, nec blandit neque interdum. Cras et erat mattis, iaculis lectus quis, pretium mi.</p>",
+      "date": "26/07/2017 22:38"
+    },
+    {
+      "id": 3,
+      "title": "Title 3",
+      "content": "<h2>3Lorem ipsum dolor</h2><p>sit amet, consectetur adipiscing elit. Praesent porttitor a turpis in sagittis.</p><p>Pellentesque convallis tortor non augue tempus, nec blandit neque interdum. Cras et erat mattis, iaculis lectus quis, pretium mi.</p>",
+      "date": "27/07/2017 22:38"
+    },
+    {
+      "id": 4,
+      "title": "Title 4",
+      "content": "<h2>4Lorem ipsum dolor</h2><p>sit amet, consectetur adipiscing elit. Praesent porttitor a turpis in sagittis.</p><p>Pellentesque convallis tortor non augue tempus, nec blandit neque interdum. Cras et erat mattis, iaculis lectus quis, pretium mi.</p>",
+      "date": "28/07/2017 22:38"
+    },
+    {
+      "id": 5,
+      "title": "Title 5",
+      "content": "<h2>5Lorem ipsum dolor</h2><p>sit amet, consectetur adipiscing elit. Praesent porttitor a turpis in sagittis.</p><p>Pellentesque convallis tortor non augue tempus, nec blandit neque interdum. Cras et erat mattis, iaculis lectus quis, pretium mi.</p>",
+      "date": "29/07/2017 22:38"
+    }
+  ]
+}

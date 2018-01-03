@@ -1,0 +1,65 @@
+@import '../../App/variables';
+@import '../../App/mixins';
+
+// Main navigation
+
+.navigation nav {
+   
+   ul {
+      @include reset-ul();
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
+   li {
+      flex: 0 0 11rem;
+      margin: 0 1rem 1.8rem;
+   }
+
+   .active {
+      .main-nav-box {
+         background-image: linear-gradient(to right, $light-blue 0%, $dark-blue 100%);
+
+         i {
+            color: #fff;
+         }
+      }
+   }
+}
+
+.main-nav-widget {
+   text-align: center;
+
+   span {
+      text-transform: uppercase;
+      color: #434d56;
+      font-size: 1.2rem;
+      font-weight: bold;
+   }
+}
+
+.main-nav-box {
+   background: #f6f8f9;
+   box-shadow: 0 0 .4rem rgba(0,0,0,0.2);
+   margin-bottom: .5rem;
+   min-height: 8rem;
+   border-radius: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   i {
+      color: #9fadb9;
+      font-size: 3.8rem;
+   }
+}
+
+// 530px
+@media (min-width: 33.125em) {
+   .navigation nav {
+      ul {
+         justify-content: space-between;
+      }
+   }
+}
